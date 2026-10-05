@@ -1,0 +1,16 @@
+.DS_Store
+
+# Go
+/bin/
+*.test
+*.out
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local secrets and cluster credentials
+.env
+*.kubeconfig
